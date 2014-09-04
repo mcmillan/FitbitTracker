@@ -12,6 +12,7 @@
 		683B77EF19B7E55D00183619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683B77ED19B7E55D00183619 /* Main.storyboard */; };
 		683B77F119B7E55D00183619 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 683B77F019B7E55D00183619 /* Images.xcassets */; };
 		683B77FD19B7E55D00183619 /* FitbitTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B77FC19B7E55D00183619 /* FitbitTrackerTests.swift */; };
+		683B780719B7E5E400183619 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683B780619B7E5E400183619 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		683B77F619B7E55D00183619 /* FitbitTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitbitTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		683B77FB19B7E55D00183619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		683B77FC19B7E55D00183619 /* FitbitTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitbitTrackerTests.swift; sourceTree = "<group>"; };
+		683B780619B7E5E400183619 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				683B780719B7E5E400183619 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +60,7 @@
 		683B77DB19B7E55D00183619 = {
 			isa = PBXGroup;
 			children = (
+				683B780619B7E5E400183619 /* CoreBluetooth.framework */,
 				683B77E619B7E55D00183619 /* FitbitTracker */,
 				683B77F919B7E55D00183619 /* FitbitTrackerTests */,
 				683B77E519B7E55D00183619 /* Products */,
