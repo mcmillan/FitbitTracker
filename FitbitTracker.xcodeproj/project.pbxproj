@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		683B77EA19B7E55D00183619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B77E919B7E55D00183619 /* AppDelegate.swift */; };
+		683B77EC19B7E55D00183619 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B77EB19B7E55D00183619 /* ViewController.swift */; };
+		683B77EF19B7E55D00183619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683B77ED19B7E55D00183619 /* Main.storyboard */; };
+		683B77F119B7E55D00183619 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 683B77F019B7E55D00183619 /* Images.xcassets */; };
+		683B77FD19B7E55D00183619 /* FitbitTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B77FC19B7E55D00183619 /* FitbitTrackerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		683B77F719B7E55D00183619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 683B77DC19B7E55D00183619 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 683B77E319B7E55D00183619;
+			remoteInfo = FitbitTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		683B77E419B7E55D00183619 /* FitbitTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitbitTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		683B77E819B7E55D00183619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		683B77E919B7E55D00183619 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		683B77EB19B7E55D00183619 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		683B77EE19B7E55D00183619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		683B77F019B7E55D00183619 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		683B77F619B7E55D00183619 /* FitbitTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitbitTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		683B77FB19B7E55D00183619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		683B77FC19B7E55D00183619 /* FitbitTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitbitTrackerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		683B77E119B7E55D00183619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		683B77F319B7E55D00183619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		683B77DB19B7E55D00183619 = {
+			isa = PBXGroup;
+			children = (
+				683B77E619B7E55D00183619 /* FitbitTracker */,
+				683B77F919B7E55D00183619 /* FitbitTrackerTests */,
+				683B77E519B7E55D00183619 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		683B77E519B7E55D00183619 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				683B77E419B7E55D00183619 /* FitbitTracker.app */,
+				683B77F619B7E55D00183619 /* FitbitTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		683B77E619B7E55D00183619 /* FitbitTracker */ = {
+			isa = PBXGroup;
+			children = (
+				683B77E919B7E55D00183619 /* AppDelegate.swift */,
+				683B77EB19B7E55D00183619 /* ViewController.swift */,
+				683B77ED19B7E55D00183619 /* Main.storyboard */,
+				683B77F019B7E55D00183619 /* Images.xcassets */,
+				683B77E719B7E55D00183619 /* Supporting Files */,
+			);
+			path = FitbitTracker;
+			sourceTree = "<group>";
+		};
+		683B77E719B7E55D00183619 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				683B77E819B7E55D00183619 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		683B77F919B7E55D00183619 /* FitbitTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				683B77FC19B7E55D00183619 /* FitbitTrackerTests.swift */,
+				683B77FA19B7E55D00183619 /* Supporting Files */,
+			);
+			path = FitbitTrackerTests;
+			sourceTree = "<group>";
+		};
+		683B77FA19B7E55D00183619 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				683B77FB19B7E55D00183619 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		683B77E319B7E55D00183619 /* FitbitTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 683B780019B7E55D00183619 /* Build configuration list for PBXNativeTarget "FitbitTracker" */;
+			buildPhases = (
+				683B77E019B7E55D00183619 /* Sources */,
+				683B77E119B7E55D00183619 /* Frameworks */,
+				683B77E219B7E55D00183619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitbitTracker;
+			productName = FitbitTracker;
+			productReference = 683B77E419B7E55D00183619 /* FitbitTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		683B77F519B7E55D00183619 /* FitbitTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 683B780319B7E55D00183619 /* Build configuration list for PBXNativeTarget "FitbitTrackerTests" */;
+			buildPhases = (
+				683B77F219B7E55D00183619 /* Sources */,
+				683B77F319B7E55D00183619 /* Frameworks */,
+				683B77F419B7E55D00183619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				683B77F819B7E55D00183619 /* PBXTargetDependency */,
+			);
+			name = FitbitTrackerTests;
+			productName = FitbitTrackerTests;
+			productReference = 683B77F619B7E55D00183619 /* FitbitTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		683B77DC19B7E55D00183619 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Chainsaw;
+				TargetAttributes = {
+					683B77E319B7E55D00183619 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					683B77F519B7E55D00183619 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 683B77E319B7E55D00183619;
+					};
+				};
+			};
+			buildConfigurationList = 683B77DF19B7E55D00183619 /* Build configuration list for PBXProject "FitbitTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 683B77DB19B7E55D00183619;
+			productRefGroup = 683B77E519B7E55D00183619 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				683B77E319B7E55D00183619 /* FitbitTracker */,
+				683B77F519B7E55D00183619 /* FitbitTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		683B77E219B7E55D00183619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683B77EF19B7E55D00183619 /* Main.storyboard in Resources */,
+				683B77F119B7E55D00183619 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		683B77F419B7E55D00183619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		683B77E019B7E55D00183619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683B77EC19B7E55D00183619 /* ViewController.swift in Sources */,
+				683B77EA19B7E55D00183619 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		683B77F219B7E55D00183619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683B77FD19B7E55D00183619 /* FitbitTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		683B77F819B7E55D00183619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 683B77E319B7E55D00183619 /* FitbitTracker */;
+			targetProxy = 683B77F719B7E55D00183619 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		683B77ED19B7E55D00183619 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				683B77EE19B7E55D00183619 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		683B77FE19B7E55D00183619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		683B77FF19B7E55D00183619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		683B780119B7E55D00183619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FitbitTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		683B780219B7E55D00183619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FitbitTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		683B780419B7E55D00183619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FitbitTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitbitTracker.app/FitbitTracker";
+			};
+			name = Debug;
+		};
+		683B780519B7E55D00183619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FitbitTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitbitTracker.app/FitbitTracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		683B77DF19B7E55D00183619 /* Build configuration list for PBXProject "FitbitTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683B77FE19B7E55D00183619 /* Debug */,
+				683B77FF19B7E55D00183619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		683B780019B7E55D00183619 /* Build configuration list for PBXNativeTarget "FitbitTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683B780119B7E55D00183619 /* Debug */,
+				683B780219B7E55D00183619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		683B780319B7E55D00183619 /* Build configuration list for PBXNativeTarget "FitbitTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683B780419B7E55D00183619 /* Debug */,
+				683B780519B7E55D00183619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 683B77DC19B7E55D00183619 /* Project object */;
+}
